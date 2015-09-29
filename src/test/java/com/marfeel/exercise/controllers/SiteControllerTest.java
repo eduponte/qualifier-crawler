@@ -84,7 +84,7 @@ public class SiteControllerTest {
 
         this.mockMvc.perform(asyncDispatch(mvcResult))
                 .andExpect(status().isOk())
-                .andExpect(content().contentType(MediaType.APPLICATION_JSON_VALUE))
+                .andExpect(content().contentTypeCompatibleWith(MediaType.APPLICATION_JSON_VALUE))
                 .andExpect(jsonPath("totalEnqueuedForProcessing").value(2));
 
     }
@@ -115,7 +115,7 @@ public class SiteControllerTest {
 
         this.mockMvc.perform(asyncDispatch(mvcResult))
                 .andExpect(status().isOk())
-                .andExpect(content().contentType(MediaType.APPLICATION_JSON_VALUE))
+                .andExpect(content().contentTypeCompatibleWith(MediaType.APPLICATION_JSON_VALUE))
                 .andExpect(jsonPath("$").isArray())
                 .andExpect(jsonPath("$[0].url").value("forocoches.com"))
                 .andExpect(jsonPath("$[0].isMarfeelizable").value(false))
