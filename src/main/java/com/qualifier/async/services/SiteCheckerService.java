@@ -1,7 +1,7 @@
-package com.marfeel.exercise.services;
+package com.qualifier.async.services;
 
-import com.marfeel.exercise.domain.QualifiedSite;
-import com.marfeel.exercise.domain.Site;
+import com.qualifier.async.domain.QualifiedSite;
+import com.qualifier.async.domain.Site;
 
 import java.util.concurrent.CompletableFuture;
 

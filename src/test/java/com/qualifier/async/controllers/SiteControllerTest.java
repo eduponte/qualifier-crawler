@@ -1,9 +1,9 @@
-package com.marfeel.exercise.controllers;
+package com.qualifier.async.controllers;
 
-import com.marfeel.exercise.domain.Site;
-import com.marfeel.exercise.domain.QualifiedSite;
-import com.marfeel.exercise.repository.QualifiedSiteRepository;
-import com.marfeel.exercise.services.SiteCheckerService;
+import com.qualifier.async.domain.Site;
+import com.qualifier.async.domain.QualifiedSite;
+import com.qualifier.async.repository.QualifiedSiteRepository;
+import com.qualifier.async.services.SiteCheckerService;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;

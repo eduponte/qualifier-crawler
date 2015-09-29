@@ -1,8 +1,8 @@
-package com.marfeel.exercise.services;
+package com.qualifier.async.services;
 
-import com.marfeel.exercise.domain.QualifiedSite;
-import com.marfeel.exercise.domain.Site;
-import com.marfeel.exercise.repository.QualifiedSiteRepository;
+import com.qualifier.async.domain.QualifiedSite;
+import com.qualifier.async.domain.Site;
+import com.qualifier.async.repository.QualifiedSiteRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

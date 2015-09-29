@@ -1,6 +1,6 @@
-package com.marfeel.exercise.repository;
+package com.qualifier.async.repository;
 
-import com.marfeel.exercise.domain.QualifiedSite;
+import com.qualifier.async.domain.QualifiedSite;
 import org.springframework.data.repository.CrudRepository;
 
 import java.util.List;

@@ -1,4 +1,4 @@
-package com.marfeel.exercise.domain;
+package com.qualifier.async.domain;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 

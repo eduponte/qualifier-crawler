@@ -1,4 +1,4 @@
-package com.marfeel.exercise.domain;
+package com.qualifier.async.domain;
 
 /**
  * Created by eduardo.ponte on 29/09/2015.

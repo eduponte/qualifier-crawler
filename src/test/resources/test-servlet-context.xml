@@ -15,16 +15,16 @@
         http://www.springframework.org/schema/data/jpa
         http://www.springframework.org/schema/data/jpa/spring-jpa.xsd">
 
-    <context:component-scan base-package="com.marfeel.exercise.controllers" />
+    <context:component-scan base-package="com.qualifier.async.controllers" />
 
     <mvc:annotation-driven />
 
     <bean id="siteChecker" class="org.mockito.Mockito" factory-method="mock">
-        <constructor-arg value="com.marfeel.exercise.services.SiteCheckerService"/>
+        <constructor-arg value="com.qualifier.async.services.SiteCheckerService"/>
     </bean>
 
     <bean id="qualifiedSiteRepository" class="org.mockito.Mockito" factory-method="mock">
-        <constructor-arg value="com.marfeel.exercise.repository.QualifiedSiteRepository"/>
+        <constructor-arg value="com.qualifier.async.repository.QualifiedSiteRepository"/>
     </bean>
 
 </beans>

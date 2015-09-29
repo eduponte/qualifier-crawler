@@ -1,6 +1,6 @@
-package com.marfeel.exercise.repository;
+package com.qualifier.async.repository;
 
-import com.marfeel.exercise.domain.QualifiedSite;
+import com.qualifier.async.domain.QualifiedSite;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -9,7 +9,6 @@ import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.test.context.web.WebAppConfiguration;
 
-import java.util.Collections;
 import java.util.Date;
 import java.util.List;
 
